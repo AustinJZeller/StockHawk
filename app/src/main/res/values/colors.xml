@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FB8C00</color>
+    <color name="colorPrimaryDark">#E65100</color>
+    <color name="colorAccent">#FFE0B2</color>
+    <color name="app_background">#FFC107</color>
+
+    <color name="material_cyan_400">#26C6DA</color>
+    <color name="material_cyan_700">#0097A7</color>
+    <color name="material_red_600">#E53935</color>
+    <color name="material_green_500">#4CAF50</color>
+
+</resources>

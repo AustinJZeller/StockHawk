@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+    <dimen name="widget_min_width">350dp</dimen>
+    <dimen name="widget_min_height">250dp</dimen>
+
+    <dimen name="widget_min_resize_width">180dp</dimen>
+    <dimen name="widget_min_resize_height">90dp</dimen>
+
+    <dimen name="text_size_widget_title">24sp</dimen>
+    <dimen name="padding_price_change">3dp</dimen>
+    <dimen name="padding_bid_price">10sp</dimen>
+
+    <dimen name="list_item_margin">10dp</dimen>
+    <dimen name="card_view_elevation">4dp</dimen>
+    <dimen name="card_view_corner_radius">2dp</dimen>
+    <dimen name="txt_size_stock_price">30sp</dimen>
+</resources>

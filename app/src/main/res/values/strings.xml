@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name" translatable="false">Stock Hawk</string>
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+
+    <string name="pref_stocks_key" translatable="false">stocks</string>
+
+    <string name="chart_no_data" translatable="true">No data</string>
+
+
+    <string name="pref_display_mode_title" translatable="true">Display Mode</string>
+    <string name="pref_display_mode_key" translatable="true">displayMode</string>
+    <string name="pref_display_mode_default">@string/pref_display_mode_ratio_key</string>
+
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_ratio_key" translatable="false">ratio</string>
+
+    <string name="default_stocks_yahoo" translatable="false">YHOO</string>
+    <string name="default_stocks_apple" translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft" translatable="false">MSFT</string>
+    <string name="default_stocks_facebook" translatable="false">FB</string>
+
+    <string name="widget_title" translatable="false">Stock Hawk Widget</string>
+    <string name="action_change_units">@string/pref_display_mode_key</string>
+
+
+    <string name="dialog_title" translatable="true">Add Stock</string>
+    <string name="dialog_hint" translatable="false">Symbol (e.g. AAPL)</string>
+    <string name="dialog_cancel" translatable="true">Cancel</string>
+    <string name="dialog_add" translatable="true">Add</string>
+
+    <string name="error_stock_not_found" translatable="true">Stock Not Found!</string>
+    <string name="error_no_network" translatable="true">Network not available</string>
+    <string name="error_no_stocks" translatable="true">No stocks added.</string>
+
+    <string name="toast_stock_added_no_connectivity" translatable="true">Symbol %s added. Refresh will happen connection available.</string>
+    <string name="toast_no_connectivity" translatable="true">Will refresh when connection available.</string>
+    <string name="add_new_stock" translatable="true">Add new stock</string>
+    <string name="ok" translatable="true">OK</string>
+    <string name="no_stock_found" translatable="true">No Stock Found</string>
+    <string name="stock_entered_not_available" translatable="true">Stock not available</string>
+    <string name="checking_stock" translatable="true">Checking stock</string>
+
+    <string name="graph_content_description" translatable="true">This chart shows prices of the stock over time.</string>
+    <string name="stock_name" translatable="true">Stock Name</string>
+    <string name="stock_symbol" translatable="true">Stock Symbol</string>
+    <string name="Currency" translatable="true">Medium of Exchange</string>
+    <string name="Daylow" translatable="true">Day\'s low</string>
+    <string name="Dayhigh" translatable="true">Day\'s high</string>
+    <string name="Yearlow" translatable="true">Year\'s low</string>
+    <string name="Yearhigh" translatable="true">Year\'s high</string>
+    <string name="Lasttradedate" translatable="true">Last Trade Date</string>
+    <string name="grabbing_history" translatable="true">Grabbing stock history…</string>
+    <string name="stock" translatable="false">Stock</string>
+    <string name="last_twelve_month_stock" translatable="true">Last 12 Months Stock</string>
+    <string name="list_stocks" translatable="true">List of Stocks</string>
+    <string name="action_adjust_units" translatable="true">Adjust from percentage increase or decrease to actual increase or decrease.</string>
+    <string name="no_information_show" translatable="true">No Information</string>
+    <string name="redo" translatable="true">Redo</string>
+
+
+</resources>

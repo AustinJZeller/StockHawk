@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_change_units"
+        android:icon="@drawable/ic_currency"
+        android:orderInCategory="99"
+        android:contentDescription="@string/action_adjust_units"
+        android:title="@string/action_change_units"
+        app:showAsAction="always" />
+
+
+</menu>

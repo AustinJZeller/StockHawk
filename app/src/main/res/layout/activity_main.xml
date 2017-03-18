@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cdl_activity_my_stocks"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:titleTextColor="@android:color/white" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_activity_my_stocks"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:contentDescription="@string/list_stocks"
+                android:background="@color/app_background"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_horizontal_margin" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+        <TextView
+            android:id="@+id/error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:visibility="gone"
+            tools:text="Error message" />
+    </RelativeLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/add_new_stock"
+        android:onClick="button"
+        android:src="@drawable/fab"
+        app:backgroundTint="@color/material_cyan_700"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        app:pressedTranslationZ="12dp" />
+</android.support.design.widget.CoordinatorLayout>
